@@ -1,7 +1,7 @@
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
-  /*border:1px solid red;*/ /*  turn on for checking the boxes*/
+/*  border:1px solid red;*/ /*  turn on for checking the boxes*/
 
 }
 
@@ -290,16 +290,16 @@ select{
 
 
 button {
-  color: #FFF;
+  color: #fff;
   background-color: #4ebbb5;
   border: 1px solid #fff;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.5) inset;
 }
 
 footer {
-    background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white 10%, #4ebbb5); /* For Chrome */
-    background: linear-gradient(white 10%,#4ebbb5); /* Standard syntax */
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff 10%, #4ebbb5); /* For Chrome */
+    background: linear-gradient(#fff 10%, #4ebbb5); /* Standard syntax */
 }
 
 a:link, a:visited {
@@ -393,7 +393,20 @@ select{
 }
 
 .button:hover {
-  transform:scale(1.2,1.2)
+  transform:scale(1.22,1.5)
+}
+
+fieldset {
+  margin-bottom: 4em;
+}
+
+/* --- Form Background gradient --- */
+form {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff 92%, #dcf7f3); /* For Chrome */
+    background: linear-gradient(#fff 92%, #dcf7f3); /* Standard syntax */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 /* ===================
@@ -409,11 +422,13 @@ select{
 .cf:after {
     clear: both;
 }
+
 /* ===================
         Footer
 ====================== */  
   footer {
   padding:30px 0 300px;
+  background: white; /* For browsers that do not support gradients */
 }
 }
 
